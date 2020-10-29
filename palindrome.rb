@@ -1,4 +1,4 @@
 def palindrome?(string)
-
-  string.downcase === string.downcase.reverse
+  downcased_string = downcased_string
+  downcased_string === downcased_string.reverse
 end
