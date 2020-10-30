@@ -1,12 +1,7 @@
-class Phrase
-  attr_accessor :content
+class Phrase < String
 
-  def initialize(content)
-    @content = content
-  end
-  
   def palindrome?
-    downcased_string = self.content.downcase
+    downcased_string = self.downcase
     downcased_string === downcased_string.reverse
     end
 
