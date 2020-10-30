@@ -9,5 +9,9 @@ class Phrase
     downcased_string = self.content.downcase
     downcased_string === downcased_string.reverse
     end
+
+  def louder
+    self.content.upcase
+  end
 end
 
