@@ -10,3 +10,10 @@ class Phrase < String
   end
 end
 
+class TranslatedPhrase < Phrase
+  attr_accessor :translation
+
+  def initialize(content, translation)
+    @translation = translation
+  end
+end
